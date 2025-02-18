@@ -1,0 +1,119 @@
+.container-fluid>.row>.col-lg-4{
+    margin: 10px;
+    border-radius: 10px;
+    border: 3px solid rgba(139, 215, 211, 0.317);
+    max-width: 340px;
+    height:440px}
+.container-fluid>.row{
+  display: flex;
+  justify-content: space-evenly;
+}
+.container-fluid>.row>.col-lg-4>img{
+    height: 100px;
+    transform: translateX(105px)translateY(-60px);
+
+}
+#cof2{
+    height: 150px;
+    transform: translateX(60px)translateY(-75px);
+}
+.col-lg-4>.container>.row>h5>big>b{
+ color: rgb(79, 76, 76);
+    
+}
+.inner{
+    display: grid;
+    place-items: center;
+}
+.inner>.r2{
+    font-weight: 550;
+color: #c8202f;
+background:#fff1f2;
+max-width:fit-content;
+padding: 2%;
+text-align: center;
+border-radius:6px ;
+}
+
+
+.r3>.col>h6>b{
+    color: rgba(0, 0, 0, 0.516);
+    white-space: nowrap;
+}
+.r3{
+    width: 110%;
+    border-top: 2px solid rgba(128, 128, 128, 0.249);
+    padding: 3.2%;
+
+}
+
+.r3>.col2>h6>b{
+    color: #c8202f;
+    
+}
+.r3>.col2{
+    text-align: right;
+}
+.col1>.inner>.row>h4>b{
+    background: #fff1f2;
+
+}
+.col1>.inner>.off{
+    background:#fff1f2;
+    color: #c8202f;
+    border-radius: 6px;
+}
+.inner{
+    transform: translateY(-50px);
+}
+.r3l{
+    border-bottom: 2px solid rgba(128, 128, 128, 0.267);
+}
+.green>.col2>h6>big>b{
+    color: #019f6b;
+    white-space: nowrap;
+}
+.green>.c1>h6>big>b{
+    white-space: nowrap;
+    color: rgba(80, 72, 72, 0.756);
+}
+#mid{
+    height: 520px;
+    border: 2px solid black;
+}
+.midgreen>.col-lg-4{
+    width: 33%;
+}
+.midgreen{
+    background:#e6fdf6;
+    text-align: center;
+    border: 15px solid  #e6fdf6;;
+    border-top: 20px solid #e6fdf6;
+    border-radius: 6px;
+    width: 98%;
+}
+.midgreen>.cc{
+    transform: translateX(5px);
+}
+.midgreen>.col-lg-4{
+    margin: -3.7%;
+}
+.midgreen>.col-lg-4>small{
+    font-weight: 550;
+}
+.midgreen>.col-lg-4>h5>big>b{
+    color: #019f6b;
+}
+.e40{
+    transform: translateY(-4px)
+}
+.midgreen>.col-lg-4>h6{
+    white-space: nowrap;
+}
+@media(max-width:1000px)
+{
+    .container-fluid>.row>.col-lg-4{
+        margin-bottom: 100px;
+    }
+    
+}
