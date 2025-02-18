@@ -104,11 +104,16 @@ border-radius:6px ;
 .midgreen>.col-lg-4>h5>big>b{
     color: #019f6b;
 }
-.e40{
-    transform: translateY(-4px)
-}
+
 .midgreen>.col-lg-4>h6{
     white-space: nowrap;
+}
+.off{
+    display: grid;
+}
+.midgreen{
+    display: flex;
+    align-items: center;
 }
 @media(max-width:1000px)
 {
