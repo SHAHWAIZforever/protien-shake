@@ -309,8 +309,8 @@ color: #019f6b;
     }
     .swiper{
         transform: translateX(15px);
-        width:335px;
-       
+/*         width:335px;
+        */
     }
     
     .slider-wrapper {
