@@ -263,66 +263,65 @@ color: #019f6b;
    background: #fff1f2;
     color: #c8202f;
     padding: 2%;
-}
-@media(max-width:1600px){
-    .container-fluid{
-  
-        display:none;
-      
-      }
-      #visibleonphone{
-        display:block;
+}@media (min-width: 1565px) {
+    .container-fluid > .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
     }
-   
 }
-@media (min-width:761px)and(max-width:1000px)
-{
-    .midgreen{
+
+@media (min-width: 761px) and (max-width: 1564px) {
+    .container-fluid {
+        display: none;
+    }
+    
+    #visibleonphone {
+        display: block;
+    }
+    
+    .midgreen {
         display: grid;
-        
     }
-    .container-fluid>.row>.col-lg-4{
+    
+    .container-fluid > .row > .col-lg-4 {
         margin-bottom: 100px;
-       width: 290px;
-    
+        width: 290px;
     }
     
-    .midgreen>.col-lg-4>h5>big>b{
+    .midgreen > .col-lg-4 > h5 > big > b {
         color: #019f6b;
         font-size: 18px;
     }
-    .midgreen>.col-lg-4{
+    
+    .midgreen > .col-lg-4 {
         margin-bottom: 1%;
     }
-    .midgreen>.col-lg-4>small{
+    
+    .midgreen > .col-lg-4 > small {
         white-space: nowrap;
     }
-    .container-fluid{
-  
-        display: none;
-      
-      }
-    #visibleonphone{
-        display:none;
-    }
 }
+
 @media (max-width: 760px) {
- 
-   .inn{
-   width: 230px;
-   
-   }
-   
-   .swiper{
-    width: 280px;
-    overflow: visible;
-   }
- .container-fluid{
-  
-   display: none;
- 
- }
- #visibleonphone{
-    display:block;
-}
+    .inn {
+        width: 300px;
+    }
+    
+    .slider-wrapper {
+        width: 305px; 
+        /* IMPORTANT FOR SWIPERJS */
+    }
+    
+    .swiper-slide {
+        width: 100px;
+    }
+    
+    .container-fluid {
+        display: none;
+    }
+    
+    #visibleonphone {
+        display: block;
+    }
 }
